@@ -1,0 +1,28 @@
+
+
+
+! Najteži kviz
+
+# broj unutar viticastih zagrada oznacava o kojem tipu pitanja se radi
+# 1 - pitanje koje ima samo jedan tocan odgovor
+# 2 - pitanje u kojem je potrebno odabrati vise opcija
+# 3 - pitanje na koje korisnik mora sam unijeti odgovor
+# format pitanja u kojem je tocan samo jedan odgovor
+Tko je napisao WE ARE THE PEOPLE?{1}:T.N.Kaul,J.R.D. Tata,Khushwant Singh,Nani Palkhivala;Nani Palkhivala
+Autor knjige 1984?{1}:Thomas Hardy,Emile Zola,George Orwell,Walter Scott;George Orwell
+Battle of Plassey?{1}:1757,1782,1748,1764;1757
+Tripitakas su svete knjige {1}:Buddhists,Jains,Hindus, Nitko od Navedenih;Buddhists
+
+# format pitanja u kojem je tocno vise odgovora
+Kemijski sastav šećera{2}:Voda,Ugljik,Fosfor,Kisik,Vodik,Željezo,Sumpor;Ugljik,Kisik,Vodik
+Ugljikohidrati{2}:glukoza,fruktoza,saharoza,škrob,celuloza,glikogen,laktoza;glukoza,fruktoza,saharoza,škrob,celuloza,glikogen,laktoza
+Pjesme grupe Iron Maiden{2}:Aces High,Powerslave,Transylvania,Gallows Call,Wasting Love,Different Wars,Dream of Spring,Blood Brothers;Aces High,Powerslave,Transylvania,Blood Brothers
+Korisni fakulteti u Hrvatskoj{2}:Filozofski,Ekonomija,Medicinski,Kineziološki,FER;Medicinski,FER
+
+# format pitanja u kojem korisnik mora sam unijeti odgovor
+# tocnost korisnikovog odgovora ne smije ovisiti o koristenju malih i velikih slova,
+# odnosno odgovori `jedan'i `jEdAN' moraju biti jednaki
+Payments for the books purchased can be made only after{3}:;Accessioning
+Study carrels are exclusive areas meant for{3}:;Researchers
+Financial support given to libraries are of two types - Recurring and{3}:;Endowments
+TQM is a system of continuous improvement employing participative management and centered on needs of the{3}:;Customers

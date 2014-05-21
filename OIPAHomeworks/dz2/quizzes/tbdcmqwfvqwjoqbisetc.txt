@@ -1,0 +1,26 @@
+
+
+
+! Drugi Kviz
+# broj unutar viticastih zagrada oznacava o kojem tipu pitanja se radi
+# 1 - pitanje koje ima samo jedan tocan odgovor
+# 2 - pitanje u kojem je potrebno odabrati vise opcija
+# 3 - pitanje na koje korisnik mora sam unijeti odgovor
+
+# format pitanja u kojem je tocan samo jedan odgovor
+Čiji stadion nosi naziv Craven Cottage?{1}:Bolton Wanderers,Derbi Country,Blackburne Rovers,Fulham FC;Fulham FC
+Najjužniji Njemački grad?{1}:Minchen,Stuttgard,Leipzig,Bonn;Minchen
+
+# format pitanja u kojem je tocno vise odgovora
+Filmovi Harrsiona Forda{2}:Blade Runner,Enders Game,42,Star Wars - Episode 1,Full Metal Jacket,Oklahoma;Blade Runner,Enders Game,42
+Gradovi u Hrvatskoj{2}:Osijek,Karlovac,Duga Resa,Toronto,Ottawa,Barcelona;Osijek,Karlovac,Duga Resa
+
+# format pitanja u kojem korisnik mora sam unijeti odgovor
+# tocnost korisnikovog odgovora ne smije ovisiti o koristenju malih i velikih slova,
+# odnosno odgovori `jedan'i `jEdAN' moraju biti jednaki
+Godina kada je Hitler postao kancelar{3}:;1933
+Godina XI Olimpijskih igara u Berlinu{3}:;1936
+Koji je glavni grad Argentine{3}:;Buenos Aires
+Glavni grad Australije{3}:;Canberra
+Glavni grad Kanade{3}:;Ottawa
+

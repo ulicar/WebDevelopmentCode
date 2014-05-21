@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.05.2014., 01:16:24
+    Author     : Josip
+*/
+
+body {
+background-color:#f1f1f1;
+font-family: georgia,sans-serif;
+color:#333;
+margin:0;
+padding:0;
+}
+
+#wrapper {
+width:960px;
+background-color:#f8f8f8;
+margin:0 auto;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+
+#header {
+width:960px;
+height:135px;
+margin:0 auto;
+margin-bottom:25px;
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+}
+
+#header h2 {
+padding:10px;
+}
+
+#nav {
+width:960px;
+height:40px;
+border-bottom:1px solid #ccc;
+}
+
+#nav a {
+display:inline;
+padding:10px;
+text-decoration:none;
+background-color:#f1f1f1;
+}
+
+#nav a:hover {
+background-color:#bababa;
+height:80px;
+}
+
+#content {
+width:675px;
+float:left;
+padding:10px;
+}
+
+#sidebar {
+width:200px;
+float:right;
+margin-bottom:25px;
+}
+
+#sidebar a {
+text-decoration:none;
+}
+
+#sidebar li {
+//list-style:none;
+}
+
+#footer {
+clear:both;
+width:960px;
+height:135px;
+border-top:1px solid #ccc;
+}
+
+#footer p {
+padding:10px;
+}
+
+a {
+    text-decoration: none;
+}
+.equal {
+        display:table;
+        border-collapse:separate;
+}
+.row {
+        display:table-row;
+}
+.row div {
+        display:table-cell;
+}
+
+.equal {
+        margin:10px auto;
+        border-spacing:2px;
+        background:#898B60;
+        width:600px;
+}
+.row div {
+        background:#fff;
+}
+.row .one {
+        width:200px;
+}
+.row .two {
+        width:200px;
+}
+.row .three {
+        vertical-align:middle;
+}
+.row div h2 {
+        margin:0 0 0.5em 0;
+        padding:0.5em 10px;
+        font-size:1.2em;
+        color:#333;
+        background:#e2e2e2;
+}
